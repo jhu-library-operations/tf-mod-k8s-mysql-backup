@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: ${ name }
+data:
+%{ for config in configs ~}
+   ${ config.key }: "${ config.value }"
+%{ endfor }

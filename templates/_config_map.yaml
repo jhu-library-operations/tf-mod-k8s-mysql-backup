@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ${ name }
+data:
+  s3_bucket_name: ${ s3_bucket_name }
+  
