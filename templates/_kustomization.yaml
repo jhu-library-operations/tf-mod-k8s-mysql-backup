@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - ./configmap.yaml
   - ./secrets.yaml
+  - ./cronjob.yaml
